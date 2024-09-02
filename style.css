@@ -1,0 +1,67 @@
+/*O que deve ser aplicado em tudo*/
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    background-color:rgb(206, 196, 206);
+}
+
+/*O que deve ser aplicado nos títulos de todas as páginas*/
+h1{
+    text-align: center;
+    color:indigo;
+}
+
+/*O que deve ser aplicado nos subtítulos de todas as páginas*/
+h2{
+    color: rgb(95, 39, 134);
+}
+
+/*Classe para as características que devem ser aplicadas no menu de links das páginas*/
+.um {
+padding: 20px;
+width: auto;
+height: auto;
+color: white;
+background-color: indigo;
+}
+
+/*Classe para as características que devem ser aplicadas aos títulos e subtítulos*/
+.dois {
+    padding: 10px;
+    width: 50%;
+    height: 40%;
+    color: white;
+    background-color: rgb(100, 1, 170);
+    font-size: 25px;
+    }
+
+/*Classe para as características da div de conteúdo "Sobre mim"*/
+.espaco{
+    width: 85%;
+    height: 200px;
+    padding: 30px; margin: 40px; 
+    border: dotted 5px rgb(100, 1, 170);
+}
+
+/*Classe para as características da div de conteúdo da "Formação acadêmica" e "Contato"*/
+.espacodois{
+width: 95%;
+position: relative;
+    height: 160px;
+    padding: 10px; margin: 20px; 
+    text-align: justify;
+   }
+
+/*Classe para as características da div de conteúdo do "Portfólio"*/
+   .espacotres{
+    width: 90%;
+    height: 200px;
+    padding: 50px; margin: 50px; 
+}
+
+/*Classe para as características da div dos títulos e subtitulos*/
+.principal{
+    width: 100%;
+    padding: 20px;
+}
